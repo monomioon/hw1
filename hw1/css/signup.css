@@ -1,0 +1,70 @@
+html {
+    background-image: url(images/background.jpeg);
+    background-repeat: round;
+}
+
+main {
+    background-color: whitesmoke;
+    margin: 0px 50vh;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align:center;
+    text-shadow: 2px 2px 4px #000000;
+    font-family:'Times New Roman', Times, serif;
+}
+
+label {
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+form {
+    margin-left: 5%;
+}
+
+input[type=submit] {
+    margin-top: 10%;
+    width: 110%;
+    height: 5vh;
+    background: whitesmoke;
+    border: 2px solid teal;
+}
+
+input[type=submit]:hover{
+    background-color: teal;
+    color: whitesmoke;
+}
+
+/*Questi tre sotto servono per gli errori di compilazione*/
+.errorj label {
+    color: #fa1c2c;
+}
+
+.errorj span {
+    opacity: 1;
+    font-size: 11px;
+    color: #fa1c2c;
+}
+
+form span {
+    opacity: 0;
+    font-size: 11px;
+    transition: opacity 0.3s ease;
+}
+
+
+/*Non riesco a spostare verso destra "Hai un account? accedi"*/
+div .signup{
+    text-align:right;
+    margin: 5px solid red;
+    width: 100px;
+    height: 100px;
+}
